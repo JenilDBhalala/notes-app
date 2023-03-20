@@ -1,0 +1,12 @@
+//for add note : it will append notes to notes.json file
+node app.js add --title="avengers-endgame" --body="it is a very good movie."
+
+//for read note : it will give title and body part of the note
+node app.js read --title='avengers-endgame'
+
+//for list out all notes : it will listing out title of all notes
+node app.js list
+
+//for remove notes : it will remove particular note by title
+node app.js remove --title="avengers-endgame"
+
